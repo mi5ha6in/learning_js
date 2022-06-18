@@ -7,9 +7,11 @@
 document.documentElement` `<head> = document.head` `<body> = document.body`
 
 Можно получать доступ к любому типу узла:
+
 ![ссылки в DOM на любой узел](img/dom-links.svg)
 
 А можно только к элементам:
+
 ![ссылки в DOM на элементы](img/dom-links-elements.svg)
 
 Для любых узлов: `parentNode, childNodes, firstChild, lastChild,
