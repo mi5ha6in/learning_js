@@ -1,0 +1,22 @@
+<!-- https://javascript.info/task/dom-children -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM children</title>
+  </head>
+  <body>
+    <div>Users:</div>
+    <ul>
+      <li>John</li>
+      <li>Pete</li>
+    </ul>
+    <script>
+      const div = document.body.children[0];
+      const ul = div.nextElementSibling;
+      const lastLi = ul.lastElementChild;
+    </script>
+  </body>
+</html>
