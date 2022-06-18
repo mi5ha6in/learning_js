@@ -18,7 +18,7 @@ document.documentElement` `<head> = document.head` `<body> = document.body`
 previousSibling, nextSibling.`
 
 Для элементов: `parentElement, children, firstElementChild, lastElementChild,
-previousElementSibling, nextElementSibling`
+previousElementSibling, nextElementSibling.`
 
 Некоторые типы элементов DOM, например таблицы, предоставляют дополнительные
 свойства и коллекции для доступа к их содержимому.
